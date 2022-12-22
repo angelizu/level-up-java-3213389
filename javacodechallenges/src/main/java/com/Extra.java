@@ -30,5 +30,17 @@ public class Extra {
 
     return hasNumber && hasLowercase && hasUppercase;
   }
+
+  // test
+    // assertTrue(App.isPasswordComplex("Happy12"));
+    // assertTrue(App.isPasswordComplex("01Sall£y6"));
+    // assertTrue(App.isPasswordComplex("2Passw@rd1"));
+    // assertTrue(App.isPasswordComplex("Happy12"));
+
+    // assertFalse(App.isPasswordComplex("happy123"));
+    // assertFalse(App.isPasswordComplex("Password"));
+    // assertFalse(App.isPasswordComplex("LOLOL"));
+
+
   
 }
